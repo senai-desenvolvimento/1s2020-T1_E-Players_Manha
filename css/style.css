@@ -108,3 +108,52 @@ ul{
     right: 15%;
     top: 470px;
 }
+
+#horarios{
+    width: 100%;
+    margin: 30px 0;
+    background: rgba(67,43,95,1);
+    background: -moz-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67,43,95,1)), color-stop(100%, rgba(30,28,33,1)));
+    background: -webkit-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+    background: -o-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+    background: -ms-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+    background: linear-gradient(to bottom, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#432b5f', endColorstr='#1e1c21', GradientType=0 );
+}
+
+.ao_vivo, .em_breve{
+    border-left: solid 1px var(--purple);
+    color: white;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partida img{
+    width: 40px;
+    padding: 0 15px;
+}
+
+.partida{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#horarios .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#horarios h2{
+    margin: 0px 15px;
+}
+
+.em_breve{
+    width: 65%;
+}
