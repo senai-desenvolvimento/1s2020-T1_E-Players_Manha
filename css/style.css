@@ -353,7 +353,11 @@ fieldset label{
     margin-top: 2em;
     cursor: pointer;
 }
-
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    display: none;
+}
 @media screen and (max-width: 1200px) {
     .campea{
         right: 0%;
@@ -424,3 +428,22 @@ fieldset label{
     }   
    
 }/*Fim media max 768px*/
+
+@media screen and (max-width: 460px) {
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .cabecalho div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2em;
+    }
+    .cabecalho nav{
+        position: absolute;
+        top:73px;
+        background-color: red;
+        width: 100%;
+    }
+}
